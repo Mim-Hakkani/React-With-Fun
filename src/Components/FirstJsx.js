@@ -13,18 +13,18 @@ const FirstJsxPratices = () => {
     
    const jsxClick=(pname,count)=>{
 
-    console.log('personal name is :: ', pname);
+    // console.log('personal name is :: ', pname);
     setPersonalName(pname)
     setPersonalNameCount(++count)
-    console.log('personal count  is :: ', personalNameCount); 
+    // console.log('personal count  is :: ', personalNameCount); 
     setToggle(!toggle)
 
-    console.log(toggle);
+    // console.log(toggle);
   
    }
 
-   console.log('personal name is :: ', personalName);
-   console.log('personal count  is :: ', personalNameCount);
+//    console.log('personal name is :: ', personalName);
+//    console.log('personal count  is :: ', personalNameCount);
 
     return (
         <div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const PassOobjectDataProps = ({objectData}) => {
 
-    console.log('see the object data',objectData);
+    // console.log('see the object data',objectData);
     return (
         <div style={{color:'#548758'}}>
             <p>Salary :{objectData.salary}</p>

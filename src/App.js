@@ -5,6 +5,7 @@ import PersonalInfo from './Components/PersonalInfo';
 import PassOobjectDataProps from './Components/PassOobjectDataProps';
 import PassArrayDataProps from './Components/PassArrayDataProps';
 import HookCounter from './Components/ReacjHooks/HookCounter';
+import HookStatePrev from './Components/ReacjHooks/HookStatePrev';
 
 // testing array components 
 const phones =[
@@ -34,19 +35,22 @@ function App() {
 
   return (
  <div>
-  <FirstJsxPratices />
+  {/* <FirstJsxPratices /> */}
 
-  <PersonalInfo />
+  {/* <PersonalInfo />
   <PersonalInfo name="Hakkani" location="Rajshahi" designation="Web Designer"/>
   <PersonalInfo name="Brain Station" location="Dhaka" designation="All Developer"/>
   
   <PassOobjectDataProps objectData={objectData}/>
 
-  <PassArrayDataProps phones={phones} />
+  <PassArrayDataProps phones={phones} /> */}
 
   {/* react hook counter  */}
 
   <HookCounter/>
+
+  <HookStatePrev />
+
  </div>
   );
 }

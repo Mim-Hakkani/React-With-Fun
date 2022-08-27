@@ -38,7 +38,7 @@ const FirstJsxPratices = () => {
 
            {/* show data using click handler  */}
 
-
+            <h4>Toggle Data </h4>
            <button onClick={()=>jsxClick('Hakkani Mim',personalNameCount)} style={{padding:'7px',backgroundColor:'gray',color:'#fff'}}>{toggle ? 'Hide' : 'Show'} Name ? </button>
 
            {/* conditional Rendering data after show name  */}

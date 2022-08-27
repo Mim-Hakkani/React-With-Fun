@@ -4,6 +4,7 @@ import FirstJsxPratices from './Components/FirstJsx';
 import PersonalInfo from './Components/PersonalInfo';
 import PassOobjectDataProps from './Components/PassOobjectDataProps';
 import PassArrayDataProps from './Components/PassArrayDataProps';
+import HookCounter from './Components/ReacjHooks/HookCounter';
 
 // testing array components 
 const phones =[
@@ -42,6 +43,10 @@ function App() {
   <PassOobjectDataProps objectData={objectData}/>
 
   <PassArrayDataProps phones={phones} />
+
+  {/* react hook counter  */}
+
+  <HookCounter/>
  </div>
   );
 }

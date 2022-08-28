@@ -8,6 +8,8 @@ import HookCounter from './Components/ReacjHooks/HookCounter';
 import HookStatePrev from './Components/ReacjHooks/HookStatePrev';
 import EffectCounterDom from './Components/ReacjHooks/EffectCounterDom';
 import EffectFetchdata from './Components/ReacjHooks/EffectFetchdata';
+import { createContext } from 'react';
+import ContextHook from './Components/ReacjHooks/ContextHook';
 
 // testing array components 
 const phones =[
@@ -33,6 +35,9 @@ const phones =[
     color :'black'
   }
 
+
+ export const userContext = createContext()
+
 function App() {
 
   return (
@@ -55,7 +60,16 @@ function App() {
 
   {/* <EffectCounterDom /> */}
 
-  <EffectFetchdata />
+     <EffectFetchdata />
+
+    
+    {/* context api  */}
+
+  <userContext.Provider value={objectData}>
+    <ContextHook />
+  </userContext.Provider>
+
+
 
  </div>
   );

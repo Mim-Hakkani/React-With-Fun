@@ -45,7 +45,7 @@ getUser()
 
     return (
         <div>
-            
+            Data Fetch in three ways ( fetch , axiox , async await)
         </div>
     );
 };

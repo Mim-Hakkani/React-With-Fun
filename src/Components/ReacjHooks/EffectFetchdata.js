@@ -14,6 +14,8 @@ const EffectFetchdata = () => {
 
         // console.log('using fetch data ::',user);
 
+
+
     // data fetch in way -2  axios
 
 
@@ -24,6 +26,22 @@ const EffectFetchdata = () => {
     // },[])
     
 
+  
+    // fetch data using async await 
+
+     const getUser=async ()=> {
+  try {
+    const response = await axios.get('https://jsonplaceholder.typicode.com/users/1');
+    console.log(response.data);
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+
+useEffect(()=>{
+getUser()
+},[])
 
     return (
         <div>

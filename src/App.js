@@ -7,6 +7,7 @@ import PassArrayDataProps from './Components/PassArrayDataProps';
 import HookCounter from './Components/ReacjHooks/HookCounter';
 import HookStatePrev from './Components/ReacjHooks/HookStatePrev';
 import EffectCounterDom from './Components/ReacjHooks/EffectCounterDom';
+import EffectFetchdata from './Components/ReacjHooks/EffectFetchdata';
 
 // testing array components 
 const phones =[
@@ -52,7 +53,9 @@ function App() {
 
   {/* <HookStatePrev /> */}
 
-  <EffectCounterDom />
+  {/* <EffectCounterDom /> */}
+
+  <EffectFetchdata />
 
  </div>
   );
